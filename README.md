@@ -16,6 +16,8 @@ python -m pip install -r requirements.txt
 
 ## Model files
 
+Hugging Face model: [godlykmathews/BERT-Sentiment_Classifier](https://huggingface.co/godlykmathews/BERT-Sentiment_Classifier).
+
 Run the model-saving cell in [notebooks/train_bert.ipynb](notebooks/train_bert.ipynb). If training in Colab, download the entire saved model directory and extract it locally.
 
 The notebook saves a folder named `bert_sentiment_model`. **Rename it to `bert-sentiment-model`** to match the app's current model path, then place it beside `app.py`:
